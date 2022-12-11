@@ -4,7 +4,7 @@ import route from './routes'
 import {RouterProvider} from 'react-router-dom'
 function App() {
   return (
-    <div className="App">
+    <div>
       <GlobalStyle></GlobalStyle>
       <IconStyle></IconStyle>
       <RouterProvider router={route}/>
